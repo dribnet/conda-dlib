@@ -27,6 +27,7 @@ $ conda install conda-build
 $ git clone https://github.com/menpo/conda-dlib
 $ cd conda-dlib
 $ conda config --add channels menpo
+$ conda config --add channels salford_systems
 $ conda build conda/
 $ conda install /PATH/TO/DLIB/PACKAGE.tar.gz
 ```
